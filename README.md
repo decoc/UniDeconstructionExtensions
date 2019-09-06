@@ -15,3 +15,13 @@ Supported classes/structs are as bellow:
   - Color
   - Color32
 - Rect
+
+## Hot to use
+
+```cs
+//Deconstruct Vector3
+var (x, y, z) = new Vector3(1,1,1);
+
+//Deconstruct Color
+var (r, b, c, a) = new Color(1, 1, 1);
+```
