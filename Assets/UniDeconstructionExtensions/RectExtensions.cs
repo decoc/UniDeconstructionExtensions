@@ -17,5 +17,7 @@ namespace UniDeconstructionExtensions
             width = value.width;
             height = value.height;
         }
+
+        public static (float x, float y, float z, float w) ToTuple(this Rect value) => (value.x, value.y, value.width, value.height);
     }
 }

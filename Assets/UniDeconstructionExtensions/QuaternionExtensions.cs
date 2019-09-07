@@ -11,5 +11,7 @@ namespace UniDeconstructionExtensions
             z = value.z;
             w = value.w;
         }
+
+        public static (float x, float y, float z, float w) ToTuple(this Quaternion value) => (value.x, value.y, value.z, value.w);
     }
 }
