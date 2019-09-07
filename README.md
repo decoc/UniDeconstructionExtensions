@@ -23,5 +23,5 @@ Supported classes/structs are as bellow:
 var (x, y, z) = new Vector3(1,1,1);
 
 //Deconstruct Color
-var (r, b, c, a) = new Color(1, 1, 1);
+var (r, b, g, a) = new Color(1, 1, 1);
 ```
