@@ -30,7 +30,7 @@ Also, you can convert to tuple explicitly if you concern order of return values.
 
 ```cs
 // Visual Studio dialog an explanation of return values.
-var (x, y, z) = Vector3.One.ToTuple();
+var (x, y, z) = Vector3.one.ToTuple();
 
 var(r, g, b, a) = Color.red.ToTuple();
 ```
